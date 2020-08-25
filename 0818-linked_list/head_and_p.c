@@ -23,21 +23,12 @@ mynode *build_a_node(char *data)
 };
 void insert_head(mynode *linked_head,mynode *new )
 {
-	char *temp;
-        new->pNext = linked_head->pNext;
-	linked_head->pNext = new;
-	temp = linked_head->data;
-	linked_head->data = new->data;
-	new->data = temp;	
+	mynode *p = linked_head;
+	printf("p = %p,linked_head = %p",p,linked_head);	
+	linked_head = new;
+	linked_head->pNext = p;
 }
 
-void insert_tail(mynode *head,mynode *new)
-{
-	mynode *p;
-	p = head;
-	while(p->pNext!=NULL) p = p->pNext;
-	p->pNext = new;
-}
 
  void display(mynode *head)
  {
@@ -78,16 +69,18 @@ int main(void)
 	
 	mynode *pHeader;
 	pHeader = build_a_node("head");
+	mynode * p2 = build_a_node(s);
+	pHeader->pNext = p2;
+	
 	insert_head(pHeader,build_a_node(s));
-	insert_head(pHeader,build_a_node("thrid"));
-	insert_head(pHeader,build_a_node("fourth"));
-	insert_head(pHeader,build_a_node("fifth"));
-	insert_head(pHeader,build_a_node("sixth"));
-	insert_tail(pHeader,build_a_node("tail1"));
-	insert_tail(pHeader,build_a_node("tail2"));
-	insert_tail(pHeader,build_a_node("tail3"));
+	insert_head(pHeader,build_a_node("tail1"));
+	insert_head(pHeader,build_a_node("tail2"));
+	insert_head(pHeader,build_a_node("tail3"));
 	display(pHeader);
-//	insert(pHeader);
+
+	mynode *p =pHeader;
+	printf("p = %p,pHeader = %p",p,pHeader);	
+	printf("pnext = %p,pHeadernext = %p",p->pNext,pHeader->pNext);	
 	display(pHeader);
 	return 0;
 }

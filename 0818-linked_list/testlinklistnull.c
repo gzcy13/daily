@@ -88,6 +88,7 @@ int main(void)
 	insert_tail(pHeader,build_a_node("tail3"));
 	display(pHeader);
 //	insert(pHeader);
+	pHeader->pNext =NULL;
 	display(pHeader);
 	return 0;
 }
