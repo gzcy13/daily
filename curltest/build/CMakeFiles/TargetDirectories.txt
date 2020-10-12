@@ -1,0 +1,3 @@
+/home/ox/daily/curltest/build/CMakeFiles/rebuild_cache.dir
+/home/ox/daily/curltest/build/CMakeFiles/curlEXECUTABLE.dir
+/home/ox/daily/curltest/build/CMakeFiles/edit_cache.dir
