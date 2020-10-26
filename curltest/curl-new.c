@@ -42,7 +42,8 @@ int main(void)
   curl = curl_easy_init();
   if(curl) {
   printf("begin curl_easy_setopt\n");
-    curl_easy_setopt(curl, CURLOPT_URL, "https://www.baidu.com");
+    //curl_easy_setopt(curl, CURLOPT_URL, "https://www.baidu.com");
+    curl_easy_setopt(curl, CURLOPT_URL, "https://mail.qq.com");
     /* Define our callback to get called when there's data to be written */
     curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, my_fwrite);
     /* Set a pointer to our struct to pass to the callback */

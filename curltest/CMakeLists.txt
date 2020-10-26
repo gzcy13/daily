@@ -3,8 +3,9 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
 PROJECT(curl) #项目名称
 AUX_SOURCE_DIRECTORY(. SRC_LIST)
 
+#set(CMAKE_C_COMPILER "gcc")
 set(CMAKE_C_COMPILER "/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc")
-#set(CMAKE_CXX_COMPILER "/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++")
+set(CMAKE_CXX_COMPILER "/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-g++")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS}  -std=c++0x")
 
@@ -18,7 +19,15 @@ include_directories(${OPENCV_INCLUDE_DIRS})
 
 AUX_SOURCE_DIRECTORY(./src SRC_LIST)
 
-link_directories("../lib/curl/")
+#
+link_directories("../lib/")
+link_directories("./lib/")
+#link_directories("/home/ox/daily/curltest/lib")
+link_directories("/usr/lib")
+
+
+
+
 
 link_libraries(libssl.so)
 link_libraries(libcrypto.so)
