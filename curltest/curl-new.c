@@ -27,6 +27,7 @@ static size_t my_fwrite(void *buffer, size_t size, size_t nmemb,
  
 int main(void)
 {
+#if 0
   CURL *curl;
   CURLcode res;
   struct FtpFile ftpfile={
@@ -70,7 +71,62 @@ int main(void)
     fclose(ftpfile.stream); /* close the local file */
  
   curl_global_cleanup();
- 
+#endif
+
+
+               char *url="http://192.168.74.207:8080/uploadCalibrationPic";
+               //char *url="http://192.168.74.207:8080";
+                CURL *pCurl = NULL;
+                CURLcode res;
+
+                struct curl_slist *headerlist = NULL;
+
+                                struct curl_httppost *post = NULL;
+                struct curl_httppost *last = NULL;
+
+                curl_formadd(&post, &last,
+                    CURLFORM_COPYNAME, "image",                     //此处表示要传的参数名
+                    CURLFORM_FILE, "/home/ox/daily/curltest/yzyhanpi.jpg",                //此处表示图片文件的路径
+                    CURLFORM_CONTENTTYPE, "image/jpeg",
+                    CURLFORM_END);
+
+
+                curl_formadd(&post, &last,
+                    CURLFORM_COPYNAME, "body",                           //此处为别的参数
+                    CURLFORM_COPYCONTENTS, "yzyhanpi",             //要上传的json字符串
+                    CURLFORM_END
+                );
+			
+
+/*                curl_formadd(&post, &last,
+                    CURLFORM_COPYNAME, "backImage",              //此处表示要传的参数名
+                    CURLFORM_FILE, "/home/ox/daily/curltest/index.png",     //此处表示图片文件的路径
+                    CURLFORM_CONTENTTYPE, "image/jpeg",
+                    CURLFORM_END);
+
+*/
+	
+                pCurl = curl_easy_init();
+
+
+                if (NULL != pCurl)
+                {
+
+                    //curl_easy_setopt(pCurl, CURLOPT_TIMEOUT, 5);
+
+                    curl_easy_setopt(pCurl, CURLOPT_URL, url);
+                    curl_easy_setopt(pCurl, CURLOPT_HTTPPOST, post);
+
+                    res = curl_easy_perform(pCurl);
+                    if (res != CURLE_OK)
+                    {
+                        printf("curl_easy_perform() failed，error code is:%s\n", curl_easy_strerror(res));
+                    }
+
+
+                    curl_easy_cleanup(pCurl);
+
+                }
   return 0;
 }
 

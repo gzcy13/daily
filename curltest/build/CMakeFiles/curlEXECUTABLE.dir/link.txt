@@ -1,1 +1,1 @@
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -rdynamic CMakeFiles/curlEXECUTABLE.dir/curl-new.c.o  -o curlEXECUTABLE  -L../lib  -L./lib -Wl,-rpath,../lib:./lib -lssl -lcrypto -lcryptopp -lcurl 
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -rdynamic CMakeFiles/curlEXECUTABLE.dir/curl-new.c.o  -o curlEXECUTABLE  -L../lib -Wl,-rpath,../lib -lssl -lcrypto -lcryptopp -lcurl 
