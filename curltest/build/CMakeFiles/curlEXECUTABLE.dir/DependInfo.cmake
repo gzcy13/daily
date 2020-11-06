@@ -4,14 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ox/daily/curltest/curl-new.c" "/home/ox/daily/curltest/build/CMakeFiles/curlEXECUTABLE.dir/curl-new.c.o"
+  "/home/ox/daily/curltest/curl-add-image.c" "/home/ox/daily/curltest/build/CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/media/sf_utunbu/1/trafficBox/3rdparty/Hi3559/openssl-1.1.1g/include"
-  "/usr/local/include"
+  "../."
   )
 
 # Targets to which this target links.

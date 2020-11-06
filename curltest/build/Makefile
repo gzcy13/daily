@@ -123,32 +123,32 @@ curlEXECUTABLE/fast:
 	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/build
 .PHONY : curlEXECUTABLE/fast
 
-curl-new.o: curl-new.c.o
+curl-add-image.o: curl-add-image.c.o
 
-.PHONY : curl-new.o
+.PHONY : curl-add-image.o
 
 # target to build an object file
-curl-new.c.o:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-new.c.o
-.PHONY : curl-new.c.o
+curl-add-image.c.o:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o
+.PHONY : curl-add-image.c.o
 
-curl-new.i: curl-new.c.i
+curl-add-image.i: curl-add-image.c.i
 
-.PHONY : curl-new.i
+.PHONY : curl-add-image.i
 
 # target to preprocess a source file
-curl-new.c.i:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-new.c.i
-.PHONY : curl-new.c.i
+curl-add-image.c.i:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.i
+.PHONY : curl-add-image.c.i
 
-curl-new.s: curl-new.c.s
+curl-add-image.s: curl-add-image.c.s
 
-.PHONY : curl-new.s
+.PHONY : curl-add-image.s
 
 # target to generate assembly for a file
-curl-new.c.s:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-new.c.s
-.PHONY : curl-new.c.s
+curl-add-image.c.s:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.s
+.PHONY : curl-add-image.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... curlEXECUTABLE"
 	@echo "... edit_cache"
-	@echo "... curl-new.o"
-	@echo "... curl-new.i"
-	@echo "... curl-new.s"
+	@echo "... curl-add-image.o"
+	@echo "... curl-add-image.i"
+	@echo "... curl-add-image.s"
 .PHONY : help
 
 

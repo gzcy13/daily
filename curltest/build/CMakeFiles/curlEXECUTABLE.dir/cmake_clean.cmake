@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curlEXECUTABLE.dir/curl-new.c.o"
+  "CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
   "curlEXECUTABLE.pdb"
   "curlEXECUTABLE"
 )

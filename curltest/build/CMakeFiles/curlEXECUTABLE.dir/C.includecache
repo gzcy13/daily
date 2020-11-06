@@ -6,17 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/ox/daily/curltest/curl-new.c
-stdio.h
--
-curl/curl.h
--
-
-/usr/local/include/curl/curl.h
+.././curl/curl.h
 curlver.h
-/usr/local/include/curl/curlver.h
+.././curl/curlver.h
 system.h
-/usr/local/include/curl/system.h
+.././curl/system.h
 stdio.h
 -
 limits.h
@@ -40,23 +34,23 @@ sys/time.h
 support/SupportDefs.h
 -
 easy.h
-/usr/local/include/curl/easy.h
+.././curl/easy.h
 multi.h
-/usr/local/include/curl/multi.h
+.././curl/multi.h
 urlapi.h
-/usr/local/include/curl/urlapi.h
+.././curl/urlapi.h
 typecheck-gcc.h
-/usr/local/include/curl/typecheck-gcc.h
+.././curl/typecheck-gcc.h
 
-/usr/local/include/curl/curlver.h
+.././curl/curlver.h
 
-/usr/local/include/curl/easy.h
+.././curl/easy.h
 
-/usr/local/include/curl/multi.h
+.././curl/multi.h
 curl.h
-/usr/local/include/curl/curl.h
+.././curl/curl.h
 
-/usr/local/include/curl/system.h
+.././curl/system.h
 winsock2.h
 -
 windows.h
@@ -70,9 +64,15 @@ sys/socket.h
 sys/poll.h
 -
 
-/usr/local/include/curl/typecheck-gcc.h
+.././curl/typecheck-gcc.h
 
-/usr/local/include/curl/urlapi.h
+.././curl/urlapi.h
 curl.h
-/usr/local/include/curl/curl.h
+.././curl/curl.h
+
+/home/ox/daily/curltest/curl-add-image.c
+stdio.h
+-
+curl/curl.h
+-
 

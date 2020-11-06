@@ -6,5 +6,5 @@ C_FLAGS =
 
 C_DEFINES = 
 
-C_INCLUDES = -I/media/sf_utunbu/1/trafficBox/3rdparty/Hi3559/openssl-1.1.1g/include -I/usr/local/include 
+C_INCLUDES = -I/home/ox/daily/curltest/. 
 

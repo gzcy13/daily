@@ -14,6 +14,12 @@
 # EXTERNAL cache entries
 ########################
 
+//Value Computed by CMake
+AES_BINARY_DIR:STATIC=/home/ox/daily/curltest/build
+
+//Value Computed by CMake
+AES_SOURCE_DIR:STATIC=/home/ox/daily/curltest
+
 //Path to a program.
 CMAKE_AR:FILEPATH=/usr/bin/ar
 
@@ -130,7 +136,7 @@ CMAKE_OBJCOPY:FILEPATH=/usr/bin/objcopy
 CMAKE_OBJDUMP:FILEPATH=/usr/bin/objdump
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=curl
+CMAKE_PROJECT_NAME:STATIC=AES
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/usr/bin/ranlib

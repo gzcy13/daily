@@ -1,0 +1,6 @@
+该文档有curl的测试demo。
+
+编译ubuntu上的EXE程序时:
+gcc curl-new.c -lcrypto -lssl -lcurl
+
+编译3559的arm的程序时，去build目录下cmake ..再make即可。
