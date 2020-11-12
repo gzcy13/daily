@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/ox/daily/curltest/curl-add-image.c" "/home/ox/daily/curltest/build/CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
+  "/home/ox/daily/curltest/visionbox_evidence_upload.c" "/home/ox/daily/curltest/build/CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

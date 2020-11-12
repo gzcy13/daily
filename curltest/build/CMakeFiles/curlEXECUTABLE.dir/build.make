@@ -57,38 +57,38 @@ include CMakeFiles/curlEXECUTABLE.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/curlEXECUTABLE.dir/flags.make
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o: CMakeFiles/curlEXECUTABLE.dir/flags.make
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o: ../curl-add-image.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ox/daily/curltest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
-	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o   -c /home/ox/daily/curltest/curl-add-image.c
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o: CMakeFiles/curlEXECUTABLE.dir/flags.make
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o: ../visionbox_evidence_upload.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ox/daily/curltest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o"
+	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o   -c /home/ox/daily/curltest/visionbox_evidence_upload.c
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.i"
-	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ox/daily/curltest/curl-add-image.c > CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.i
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.i"
+	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ox/daily/curltest/visionbox_evidence_upload.c > CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.i
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.s"
-	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ox/daily/curltest/curl-add-image.c -o CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.s
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.s"
+	/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ox/daily/curltest/visionbox_evidence_upload.c -o CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.s
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.requires:
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.requires:
 
-.PHONY : CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.requires
+.PHONY : CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.requires
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.provides: CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.requires
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.provides.build
-.PHONY : CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.provides
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.provides: CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.requires
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.provides.build
+.PHONY : CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.provides
 
-CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.provides.build: CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o
+CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.provides.build: CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o
 
 
 # Object files for target curlEXECUTABLE
 curlEXECUTABLE_OBJECTS = \
-"CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
+"CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o"
 
 # External object files for target curlEXECUTABLE
 curlEXECUTABLE_EXTERNAL_OBJECTS =
 
-curlEXECUTABLE: CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o
+curlEXECUTABLE: CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o
 curlEXECUTABLE: CMakeFiles/curlEXECUTABLE.dir/build.make
 curlEXECUTABLE: CMakeFiles/curlEXECUTABLE.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ox/daily/curltest/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable curlEXECUTABLE"
@@ -99,7 +99,7 @@ CMakeFiles/curlEXECUTABLE.dir/build: curlEXECUTABLE
 
 .PHONY : CMakeFiles/curlEXECUTABLE.dir/build
 
-CMakeFiles/curlEXECUTABLE.dir/requires: CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o.requires
+CMakeFiles/curlEXECUTABLE.dir/requires: CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o.requires
 
 .PHONY : CMakeFiles/curlEXECUTABLE.dir/requires
 

@@ -70,7 +70,11 @@ sys/poll.h
 curl.h
 .././curl/curl.h
 
-/home/ox/daily/curltest/curl-add-image.c
+/home/ox/daily/curltest/visionbox_evidence_upload.c
+unistd.h
+-
+pthread.h
+-
 stdio.h
 -
 curl/curl.h

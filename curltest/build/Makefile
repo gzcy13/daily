@@ -123,32 +123,32 @@ curlEXECUTABLE/fast:
 	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/build
 .PHONY : curlEXECUTABLE/fast
 
-curl-add-image.o: curl-add-image.c.o
+visionbox_evidence_upload.o: visionbox_evidence_upload.c.o
 
-.PHONY : curl-add-image.o
+.PHONY : visionbox_evidence_upload.o
 
 # target to build an object file
-curl-add-image.c.o:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o
-.PHONY : curl-add-image.c.o
+visionbox_evidence_upload.c.o:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o
+.PHONY : visionbox_evidence_upload.c.o
 
-curl-add-image.i: curl-add-image.c.i
+visionbox_evidence_upload.i: visionbox_evidence_upload.c.i
 
-.PHONY : curl-add-image.i
+.PHONY : visionbox_evidence_upload.i
 
 # target to preprocess a source file
-curl-add-image.c.i:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.i
-.PHONY : curl-add-image.c.i
+visionbox_evidence_upload.c.i:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.i
+.PHONY : visionbox_evidence_upload.c.i
 
-curl-add-image.s: curl-add-image.c.s
+visionbox_evidence_upload.s: visionbox_evidence_upload.c.s
 
-.PHONY : curl-add-image.s
+.PHONY : visionbox_evidence_upload.s
 
 # target to generate assembly for a file
-curl-add-image.c.s:
-	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.s
-.PHONY : curl-add-image.c.s
+visionbox_evidence_upload.c.s:
+	$(MAKE) -f CMakeFiles/curlEXECUTABLE.dir/build.make CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.s
+.PHONY : visionbox_evidence_upload.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... curlEXECUTABLE"
 	@echo "... edit_cache"
-	@echo "... curl-add-image.o"
-	@echo "... curl-add-image.i"
-	@echo "... curl-add-image.s"
+	@echo "... visionbox_evidence_upload.o"
+	@echo "... visionbox_evidence_upload.i"
+	@echo "... visionbox_evidence_upload.s"
 .PHONY : help
 
 

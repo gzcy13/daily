@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o"
+  "CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o"
   "curlEXECUTABLE.pdb"
   "curlEXECUTABLE"
 )

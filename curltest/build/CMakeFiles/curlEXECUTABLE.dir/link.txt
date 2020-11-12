@@ -1,1 +1,1 @@
-/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc   -rdynamic CMakeFiles/curlEXECUTABLE.dir/curl-add-image.c.o  -o curlEXECUTABLE  -L../lib -Wl,-rpath,../lib -lssl -lcrypto -lcryptopp -lcurl 
+/opt/hisi-linux/x86-arm/aarch64-himix100-linux/bin/aarch64-himix100-linux-gcc    -lpthread -lrt -ldl -rdynamic CMakeFiles/curlEXECUTABLE.dir/visionbox_evidence_upload.c.o  -o curlEXECUTABLE  -L../lib -Wl,-rpath,../lib -lssl -lcrypto -lcryptopp -lcurl 
