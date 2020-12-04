@@ -1,4 +1,4 @@
 #! /bin/sh
 git add .
 git commit -m "update daily"
-git push
+git push origin master
